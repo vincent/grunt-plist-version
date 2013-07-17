@@ -1,0 +1,23 @@
+{
+  "name": "grunt-contrib-plistversion",
+  "version": "0.1.0",
+  "description": "Bump versions in Xcode plist files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vincent/grunt-contrib-plistversion.git"
+  },
+  "keywords": [
+    "plist",
+    "xcode",
+    "versions",
+    "grunt"
+  ],
+  "author": "Vincent Lark <vincent.lark@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "537b5a84da0eb475dada56282264545f58c870d8"
+}
