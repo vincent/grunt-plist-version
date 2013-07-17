@@ -30,14 +30,17 @@ Task targets, files and options may be specified according to the grunt [Configu
 
 #### plistFile
 Type: `String`
-Default: Info.Plist
+
+Default: `"Info.Plist"`
 
 #### versionKey
 Type: `String`
-Default: CFBundleVersion
+
+Default: `"CFBundleVersion"`
 
 #### replaceFunction
 Type: `Function`
+
 Default: `function ... return semver.inc(code, 'minor') `
 
 
@@ -47,7 +50,7 @@ Default: `function ... return semver.inc(code, 'minor') `
 grunt.initConfig({
 	plistversion: {
 	  bumpversion: {
-	    plistFile: 'ios/LesFrontaliers/LesFrontaliers-Info.plist'
+	    plistFile: 'MyProject-Info.plist'
 	  }
 	},
 })
