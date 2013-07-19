@@ -1,6 +1,6 @@
 {
-  "name": "grunt-contrib-plistversion",
-  "version": "0.1.0",
+  "name": "grunt-plist-version",
+  "version": "0.2.0",
   "description": "Bump versions in Xcode plist files",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vincent/grunt-contrib-plistversion.git"
+    "url": "git://github.com/vincent/grunt-plist-version.git"
   },
   "keywords": [
     "plist",
