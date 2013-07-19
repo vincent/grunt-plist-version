@@ -47,7 +47,7 @@ Default: "CFBundleVersion"
 #### replaceFunction
 The function called to bump the version number
 ```
-Type: Function`
+Type: Function
 Default: function ... return semver.inc(code, 'minor')
 ```
 
