@@ -48,7 +48,7 @@ Default: "CFBundleVersion"
 The function called to bump the version number
 ```
 Type: Function
-Default: function ... return semver.inc(code, 'minor')
+Default: function(version){ return semver.inc(version, 'minor'); }
 ```
 
 ### Usage Example
