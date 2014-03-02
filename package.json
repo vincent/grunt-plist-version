@@ -1,6 +1,6 @@
 {
   "name": "grunt-plist-version",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Bump versions in Xcode plist files",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "author": "Vincent Lark <vincent.lark@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "537b5a84da0eb475dada56282264545f58c870d8"
+  "bugs": {
+    "url": "https://github.com/vincent/grunt-plist-version/issues"
+  },
+  "homepage": "https://github.com/vincent/grunt-plist-version"
 }
