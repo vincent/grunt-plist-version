@@ -1,8 +1,8 @@
 {
   "name": "grunt-plist-version",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Bump versions in Xcode plist files",
-  "main": "index.js",
+  "main": "tasks/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/vincent/grunt-plist-version/issues"
   },
-  "homepage": "https://github.com/vincent/grunt-plist-version"
+  "homepage": "https://github.com/vincent/grunt-plist-version",
+  "dependencies": {
+    "semver": "^4.2.0"
+  }
 }
